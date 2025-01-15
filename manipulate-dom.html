@@ -6,9 +6,24 @@
     <title>Document</title>
   </head>
   <body>
+    <p>Hei</p>
+    <p>Hadet</p>
+    <p>Yo</p>
+    <p>Hallai</p>
+    <p>Tjollahopp</p>
+    <p>yeeehaaaw</p>
     <script>
       console.log("Vi øver på branching!");
       console.log("Tester commit and push");
+
+      const allParagraphs = document.getElementsByTagName("p");
+      console.log(allParagraphs);
+
+      allParagraphs[0].style.color = "red";
+
+      for (let i = 0; i < allParagraphs.length; i++) {
+        allParagraphs[i].style.color = "red";
+      }
     </script>
   </body>
 </html>
